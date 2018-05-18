@@ -1,10 +1,9 @@
 ﻿@media (min-width: 400px) {
 	#conversation{	
-		height: 400px;
-		border: 1px solid #ccc;
-		background-color: #37474F;
+		height: 300px;
+		border: 1px solid #ccc;		
 		padding: 4px; 
-		overflow: scroll;	
+		overflow-y: scroll;	
 	}
 	.chat_window_desc{
 		font-size: 12px;
@@ -13,11 +12,10 @@
 
 @media (min-width: 1000px) {
 	#conversation{	
-		height: 400px;
-		border: 1px solid #ccc;
-		background-color: #37474F;
+		height: 300px;
+		border: 1px solid #ccc;		
 		padding: 4px; 
-		overflow: scroll;	
+		overflow-y: scroll;	
 	}
 	.chat_window_desc{
 		font-size: 14px;
@@ -43,7 +41,8 @@ p.userRequest {
 	padding: 4px 10px 4px 10px;
 	border-radius: 4px;	
 	float: left;
-	background-color: #0099CC;
+	color: #efefef;
+	background-color: #E74C3C;
 }
 
 p.lexResponse {
@@ -52,7 +51,8 @@ p.lexResponse {
 	border-radius: 4px;
 	text-align: right;	
 	float: right;
-	background-color: #2BBBAD;
+	color: #212121;
+	background-color: #efefef;
 	font-style: italic;
 }
 

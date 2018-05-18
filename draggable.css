@@ -1,13 +1,11 @@
+
 #chatWindow {
     position: fixed;
 	right: 0;		
-	bottom: 40%;
-	width: 30%;
-	height: 30%;
-    z-index: 9;    
-    border: 1px solid #d3d3d3;
+	bottom: 0;	
+    z-index: 9;        
     text-align: center;	
-	visibility: hidden;
+    visibility: hidden;    
 	opacity: 0;
 }
 
