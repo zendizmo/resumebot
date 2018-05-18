@@ -1,0 +1,27 @@
+#chatWindow {
+    position: fixed;
+	right: 0;		
+	bottom: 40%;
+	width: 30%;
+	height: 30%;
+    z-index: 9;    
+    border: 1px solid #d3d3d3;
+    text-align: center;	
+	visibility: hidden;
+	opacity: 0;
+}
+
+#chatWindowHeader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #212121;
+    color: #efefef;
+	
+}
+
+.chat_btn_div{
+    position: fixed;
+    right: 5%;
+    bottom: 20%;
+}
