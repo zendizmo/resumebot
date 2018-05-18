@@ -67,5 +67,6 @@ p.lexError {
 }
 
 .logo_img{
-	height: 50px;	
+	border-radius: 50%;
+	height: 60px;	
 }
